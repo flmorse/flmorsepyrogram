@@ -24,7 +24,7 @@ from pyrogram import utils
 
 
 class Storage:
-    SESSION_STRING_FORMAT = ">B?256sI?"
+    SESSION_STRING_FORMAT = ">B?256sQ?"
     SESSION_STRING_FORMAT_64 = ">B?256sQ?"
     SESSION_STRING_SIZE = 351
     SESSION_STRING_SIZE_64 = 356
